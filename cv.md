@@ -20,8 +20,8 @@ I'm self educating web programming developer. I'm interested in JS and want to b
 
    # Code example:
    ```
-   function humanReadable(seconds) {
-   const secondsInMinutes = 60;
+    function humanReadable(seconds) {
+    const secondsInMinutes = 60;
     const secondsInHours = 3600;
     let hoursResult = (seconds - (seconds % secondsInHours)) / secondsInHours;
     const withoutHours = (seconds % secondsInHours);
