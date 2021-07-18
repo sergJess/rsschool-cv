@@ -18,3 +18,41 @@ a{
 li{
   list-style: none;
 }
+body{
+  background-color: #000;
+  font-family: 'Arial', sans-serif;
+}
+h1{
+  font-size: 2.8rem;
+  color: #fff;
+  
+}
+.wrapper{
+  margin: 0 auto;
+  max-width: 180rem;
+}
+.section-title{
+  font-size: 2.4rem;
+  color:#a60fa1;
+  text-align: center;
+}
+.header{
+  padding:1rem;
+}
+.personal-data{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.personal-image{
+  margin-right: 1rem;
+}
+.personal__image{
+  max-height: 350px;
+  
+}
+.personal-information{
+  font-size: 1.8rem;
+  color:#cf4aca;
+  font-style: italic;
+}
