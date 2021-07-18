@@ -129,7 +129,8 @@ h1{
   padding: 1rem;
 }
 .signature{
-  margin-top: 1rem;
+  margin: 1rem;
+  
   text-align: center;
   font-size: 1.8rem;
   color: #c72c65;
