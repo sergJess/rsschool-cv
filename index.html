@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume of Sergey Sudakov</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="personal-data">
+        <div class="personal-image"><img src="assets/images/personal-photo/avatar.jpg" alt="personal-image" class="personal__image"></div>
+        <div class="personal-data-list">
+          <h1>Resume of Sergey Sudakov</h1>
+          <h2 class="section-title">Contacts</h2>
+          <ul class="personal-information"><li class="personal__list">Email: <a href="mailto:serg.fantasy@yandex.ru" class="personal__link">serg.fantasy@yandex.ru</a></li>
+          <li class="personal__list">Phone number: <a href="tel:89684585742" class="personal__link">89684585742</a></li>
+          <li class="personal__list">Location: Russia, Moscow</li></ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="about-me section">
+    <div class="wrapper">
+      <h2 class="section-title">About me</h2>
+<p class="about-me__text">
+  I’m self educating web programming developer. I’m interested in JS and want to be a professional web developer. i’ve got some commercial experience in development (<a href="https://melon.su/" class="projects__link">melon.su</a>, <a href="https://goststeclo.ru/" class="projects__link">goststeclo.ru</a>). This my profile in <a href="https://www.codewars.com/users/sergjess" class="projects__link">kata codewars</a>). Every day I study something new in this sphere (articles in habr, youtube tutorials, telegram channels suach as ‘Просто разработка’, ‘На фронте’ etc). It's awesome to learn something new and become better day by day!
+</p>
+    </div>
+  </section>
+  <section class="skills section">
+    <div class="wrapper">
+      <h2 class="section-title">My Skills</h2>
+      <div class="my-skills">
+        <ul class="skills-list">
+        <li class="skills__list">Html - base level</li>
+        <li class="skills__list">CSS(SCSS) - base level</li>
+        <li class="skills__list">JS - base level</li>
+        <li class="skills__list">TypeScript - basic level</li>
+        <li class="skills__list">React JS- base level</li>
+        <li class="skills__list">Webpack - base level</li>
+        <li class="skills__list">Gulp - base level</li>
+        <li class="skills__list">Git - base level</li>
+        <li class="skills__list">English - B1</li>
+      </ul>
+      </div>
+    </div>
+  </section>
+  <section class="code-show section">
+    <h2 class="section-title">My code examples</h2>
+    <h3 class="section-subtitle">From Kata codewars</h3>
+    <div class="code-example">
+      <div class="code">
+        <h4 class="code__example-title">First example</h4>
+      <code class="code__example">
+        function compose(...restFunctions) { <br>
+          return (x)=>{ <br>
+           return restFunctions.reduceRight((acc, fn) => fn(acc), x);
+            } <br>
+        }
+      </code>
+    </div>
+
+    <div class="code">
+      <h4 class="code__example-title">Second example</h4>
+      <code class="code__example">
+        function humanReadable(seconds) { <br>
+          const secondsInMinutes = 60; <br>
+           const secondsInHours = 3600; <br>
+           let hoursResult = (seconds - (seconds % secondsInHours)) / secondsInHours; <br>
+           const withoutHours = (seconds % secondsInHours); <br>
+           let secondsResult = (withoutHours % secondsInMinutes); <br>
+           let minuteResult = (withoutHours - secondsResult) / secondsInMinutes; <br>
+           const hRes = (hoursResult &lt; 10) ? '0' + hoursResult : hoursResult; <br>
+           const mRes = (minuteResult &lt; 10) ? '0' + minuteResult : minuteResult; <br>
+           const sRes = (secondsResult &lt; 10) ? '0' + secondsResult : secondsResult; <br>
+           return `${hRes}:${mRes}:${sRes}`;
+       } <br>
+      </code>
+    </div>
+    </div>
+  </section>
+  <footer class="footer"><div class="wrapper">
+    <nav class="navigation">
+      <div class="nav-item">
+        <figure>
+          <a class="footer__link" href="https://github.com/sergJess" target="blank">
+          <img src="assets/images/footer/GitHub-Mark-Light-120px-plus.png"
+               alt="Github logo">
+        </a>
+        <figcaption class="signature">Link to my Github</figcaption>
+      </figure>
+      </div>
+<div class="nav-item">
+  <figure>
+    <a class="footer__link" href="https://rs.school/js/" target="blank">
+    <img src="assets/images/footer/rs_school_js.svg"
+         alt="Rolling Scopes course">
+    
+  </a>
+  <figcaption class="signature">Link to Rolling Scopes Course</figcaption>
+</figure>
+</div>
+
+    </nav>
+  </div>
+<div class="data-creation">
+  <time> 2021</time>
+</div>
+</footer>
+</body>
+</html>
