@@ -5,7 +5,7 @@
 :root{
   font-size: 10px;
 }
-h1,h2,h3,h4,h5,h6,body,p{
+h1,h2,h3,h4,h5,h6,body,p, figure{
   margin: 0;
   padding: 0;
 }
@@ -41,7 +41,7 @@ h1{
   color:#750830;
   text-align: center;
 }
-.header, .section{
+.header, .section, .footer{
   padding:1rem;
 }
 /*Personal data section*/
@@ -108,4 +108,32 @@ h1{
 .code__example{
   font-size: 1.8rem;
   color:#fff;
+}
+/*Footer*/
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav-item{
+  margin: 1rem;
+  border: 2px solid #cf4aca;
+}
+
+.footer__link{
+  display: block;
+  padding: 1rem;
+}
+.signature{
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #c72c65;
+}
+.data-creation{
+  margin: 1rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
 }
