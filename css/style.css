@@ -36,6 +36,11 @@ h1{
   color:#a60fa1;
   text-align: center;
 }
+.section-subtitle{
+  font-size: 2.1rem;
+  color:#750830;
+  text-align: center;
+}
 .header, .section{
   padding:1rem;
 }
@@ -85,4 +90,22 @@ h1{
   color: #c72c65;
   padding: 0.5rem;
   border: 2px dashed #cf4aca;
+}
+/*My code example section*/
+.code-example{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 3rem 1rem;
+}
+.code{
+  padding: 1rem;
+}
+.code__example-title{
+  font-size: 1.8rem;
+  color:#381ee3;
+}
+.code__example{
+  font-size: 1.8rem;
+  color:#fff;
 }

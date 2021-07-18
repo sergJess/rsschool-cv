@@ -48,5 +48,42 @@
       </div>
     </div>
   </section>
+  <section class="code-show section">
+    <h2 class="section-title">My code examples</h2>
+    <h3 class="section-subtitle">From Kata codewars</h3>
+    <div class="code-example">
+      <div class="code">
+        <h4 class="code__example-title">First example</h4>
+      <code class="code__example">
+        function compose(...restFunctions) { <br>
+          return (x)=>{ <br>
+           return restFunctions.reduceRight((acc, fn) => fn(acc), x);
+            } <br>
+        }
+      </code>
+    </div>
+
+    <div class="code">
+      <h4 class="code__example-title">Second example</h4>
+      <code class="code__example">
+        function humanReadable(seconds) { <br>
+          const secondsInMinutes = 60; <br>
+           const secondsInHours = 3600; <br>
+           let hoursResult = (seconds - (seconds % secondsInHours)) / secondsInHours; <br>
+           const withoutHours = (seconds % secondsInHours); <br>
+           let secondsResult = (withoutHours % secondsInMinutes); <br>
+           let minuteResult = (withoutHours - secondsResult) / secondsInMinutes; <br>
+           const hRes = (hoursResult &lt; 10) ? '0' + hoursResult : hoursResult; <br>
+           const mRes = (minuteResult &lt; 10) ? '0' + minuteResult : minuteResult; <br>
+           const sRes = (secondsResult &lt; 10) ? '0' + secondsResult : secondsResult; <br>
+           return `${hRes}:${mRes}:${sRes}`;
+       } <br>
+      </code>
+    </div>
+
+
+    </div>
+    
+  </section>
 </body>
 </html>
